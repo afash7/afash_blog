@@ -1,3 +1,19 @@
 /*
     You can add your own custom styles here.
 */
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('/fonts/Vazir-Regular.woff2') format('woff2');
+    font-weight: normal;
+}
+
+body[lang="fa"] {
+    font-family: 'Vazir', sans-serif;
+    direction: rtl;
+}
+
+/* اطمینان از نمایش اعداد فارسی */
+body[lang="fa"] * {
+    font-feature-settings: "lnum" 0, "numr" 0, "ss01";
+}

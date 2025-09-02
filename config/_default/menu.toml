@@ -15,10 +15,20 @@ url = "https://github.com/afash7"
 [social.params]
 icon = "brand-github"
 
+
 [[social]]
 identifier = "Telegram"
 name = "Telegram"
 url = "https://t.me/geektoria"
 
 [social.params]
-icon = "telegram.svg"
+icon = "brand-telegram"
+
+
+[[social]]
+identifier = "Linkedin"
+name = "linkedin"
+url = "https://linkedin.com/in/afash"
+
+[social.params]
+icon = "brand-linkedin"
