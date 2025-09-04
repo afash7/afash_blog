@@ -1,19 +1,22 @@
-/*
-    You can add your own custom styles here.
-*/
-
 @font-face {
     font-family: 'Vazir';
     src: url('/fonts/Vazir-Regular.woff2') format('woff2');
     font-weight: normal;
 }
 
-body[lang="fa"] {
-    font-family: 'Vazir', sans-serif;
+body[lang="fa"],
+body[lang="fa"] * {
+    font-family: 'Vazir', sans-serif !important;
     direction: rtl;
+    font-feature-settings: "ss01" !important;
+    font-variant-numeric: proportional-nums !important;
 }
 
-/* اطمینان از نمایش اعداد فارسی */
-body[lang="fa"] * {
-    font-feature-settings: "lnum" 0, "numr" 0, "ss01";
+/* مخصوص reading time */
+body[lang="fa"] .reading-time,
+body[lang="fa"] .article-meta,
+body[lang="fa"] .post-meta {
+    font-family: 'Vazir', sans-serif !important;
+    font-feature-settings: "ss01" !important;
+    font-variant-numeric: proportional-nums !important;
 }
