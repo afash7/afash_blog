@@ -8,7 +8,6 @@ function toJalaali(gregorianDate) {
 
 document.addEventListener('DOMContentLoaded', () => {
     if (document.documentElement.lang === 'fa') {
-        // اضافه کردن classهای احتمالی دیگر
         document.querySelectorAll('.article-meta time, .post-date, .date, .article-date, time, .post-meta, .meta-date').forEach(el => {
             const gregDate = el.getAttribute('datetime') || el.textContent.trim();
             el.textContent = toJalaali(gregDate);
