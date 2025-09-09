@@ -1,8 +1,8 @@
-[en]
-languageName = "English"
-languagedirection = "ltr"
-title = "Example Site"
-weight = 1
+# [en]
+# languageName = "English"
+# languagedirection = "ltr"
+# title = "Example Site"
+# weight = 1
 
 
 [fa]
@@ -12,8 +12,8 @@ title = "آفش غلامی"
 weight = 1
 
 
-[ar]
-languageName = "العربية"
-languagedirection = "rtl"
-title = "آفش غلامی"
-weight = 1
+# [ar]
+# languageName = "العربية"
+# languagedirection = "rtl"
+# title = "آفش غلامی"
+# weight = 1

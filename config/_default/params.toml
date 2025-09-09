@@ -13,8 +13,8 @@ published = "2006-01-02"
 lastUpdated = "2006-01-02 15:04:05"
 
 [sidebar]
-#emoji = "ッ"
-emoji = "🍥"
+emoji = "ッ"
+# emoji = "🍥"
 subtitle = "برنامه نویسی که شاعر است و ساز می‌نوازد"
 
 [sidebar.avatar]
@@ -25,7 +25,7 @@ src = "img/avatar.png"
 [article]
 headingAnchor = true
 math = false
-readingTime = true
+readingTime = false
 
 [article.license]
 enabled = true
